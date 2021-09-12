@@ -1,0 +1,16 @@
+1. Mutual exclusion:
+ Only one process at a time can access the critical section
+    progress: if a process is not accsseing the critical section it should not block 
+            other process from using it
+    Bounded Waiting: Eacah proccess must have a limited waiting time. It should not 
+            wait endlessly to access the critical section
+    Semaphore: 
+    Integer variable is used in mutual exclusive manner by various cooperative
+    processes in order to achieve synchronization
+        Types of Semaphore:
+        Counting Semaphore:
+            Used when we have more than one process in crittical sectoion at same time
+
+        Binary Semaphore:
+            Strictly provide mutual exclusion 
+            have only two values 0 or 1
